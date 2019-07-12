@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   smallest_key = nil
-  name_hash.collect do |key, value|
+  value_array = name_hash.collect do |key, value|
     value
   end
   smallest_key
