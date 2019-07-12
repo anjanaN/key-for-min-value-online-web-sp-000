@@ -5,5 +5,7 @@ def key_for_min_value(name_hash)
   value_array = name_hash.collect do |key, value|
     value
   end
-  value_array
+  smallest_value = value_array[0]
+  value_array.each do |value|
+
 end
